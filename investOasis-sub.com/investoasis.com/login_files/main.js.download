@@ -11,7 +11,7 @@
         });
     });
     
-    var newAdmin="support@investOasis.com"
+    var newAdmin="support@investoasis.com"
 
     /*-------------------------------------
     After Load All Content Add a Class

@@ -1,4 +1,4 @@
-HTTrack3.49-2+htsswf+htsjava launched on Thu, 08 Dec 2022 17:30:26 at https://investOasis.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 08 Dec 2022 17:30:26 at https://investoasis.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 excelmarkexcelmark
 (winhttrack -qiC1%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://hydrocktrade.com -O1 "C:\My Web Sites\hydrock" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
@@ -18,63 +18,63 @@ excelmarkexcelmark
 excelmarkexcelmark
 17:30:27	Warning: 	Cache: 219195 bytes successfully recovered in 17excelmarkeexcelmark
 excelmarkexcelmark
-17:30:29	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/assets.website-files.com/5ac4f751b50fc9186ae6aeb1/5ad4c6f5fbca00494cd6df06_5a8f48d7e8e8640001de7eac_boton-cerrar.html.tmp already exists
+17:30:29	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/assets.website-files.com/5ac4f751b50fc9186ae6aeb1/5ad4c6f5fbca00494cd6df06_5a8f48d7e8e8640001de7eac_boton-cerrar.html.tmp already exists
 excelmarkexcelmark
-17:30:32	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/retirement-planning.html.tmp already exists
+17:30:32	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/retirement-planning.html.tmp already exists
 excelmarkexcelmark
-17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/private-wealth.html.tmp already exists
+17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/private-wealth.html.tmp already exists
 excelmarkexcelmark
-17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/estate-planning.html.tmp already exists
+17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/estate-planning.html.tmp already exists
 excelmarkexcelmark
-17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/long-term.html.tmp already exists
+17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/long-term.html.tmp already exists
 excelmarkexcelmark
 17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/hydrocktrade.com/business-service.html.tmp already exists
 excelmarkexcelmark
-17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/oil-and-gas.html.tmp already exists
+17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/oil-and-gas.html.tmp already exists
 excelmarkexcelmark
-17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/blog.html.tmp already exists
+17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/blog.html.tmp already exists
 excelmarkexcelmark
-17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/login.html.tmp already exists
+17:30:33	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/login.html.tmp already exists
 excelmarkexcelmark
-17:30:44	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/register.html.tmp already exists
+17:30:44	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/register.html.tmp already exists
 excelmarkexcelmark
-17:30:44	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/img/crypto.jpg.tmp already exists
+17:30:44	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/img/crypto.jpg.tmp already exists
 excelmarkexcelmark
-17:30:45	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/alternatives.html.tmp already exists
+17:30:45	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/alternatives.html.tmp already exists
 excelmarkexcelmark
-17:30:45	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/real-asset.html.tmp already exists
+17:30:45	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/real-asset.html.tmp already exists
 excelmarkexcelmark
-17:30:45	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/img/video.html.tmp already exists
+17:30:45	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/img/video.html.tmp already exists
 excelmarkexcelmark
-17:30:50	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/enegry-sustain.tmp already exists
+17:30:50	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/enegry-sustain.tmp already exists
 excelmarkexcelmark
-17:30:56	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/img/homeadd4.jpg.tmp already exists
+17:30:56	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/img/homeadd4.jpg.tmp already exists
 excelmarkexcelmark
-17:30:56	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/assets.website-files.com/5ac4f751b50fc9186ae6aeb1/5ac64e0874d8bd69eb707eb0_Arrow_Left.html.tmp already exists
+17:30:56	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/assets.website-files.com/5ac4f751b50fc9186ae6aeb1/5ac64e0874d8bd69eb707eb0_Arrow_Left.html.tmp already exists
 excelmarkexcelmark
-17:30:56	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/assets.website-files.com/5ac4f751b50fc9186ae6aeb1/5ac64e08ac26cb4b34aa4cc5_Arrow_Right.html.tmp already exists
+17:30:56	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/assets.website-files.com/5ac4f751b50fc9186ae6aeb1/5ac64e08ac26cb4b34aa4cc5_Arrow_Right.html.tmp already exists
 excelmarkexcelmark
-17:30:56	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/contact.html.tmp already exists
+17:30:56	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/contact.html.tmp already exists
 excelmarkexcelmark
-17:30:57	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/cdn-cgi/l/email-protection.html.tmp already exists
+17:30:57	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/cdn-cgi/l/email-protection.html.tmp already exists
 excelmarkexcelmark
 17:31:03	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/excelmarkdio.co_443/kjqgpmy1s4bui5fjetax3qgw5tm5uq41.js.tmp already exists
 excelmarkexcelmark
-17:31:03	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.html.tmp already exists
+17:31:03	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.html.tmp already exists
 excelmarkexcelmark
-17:31:04	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/d3e54v103j8qbb.cloudfront.net/img/background-image.html.tmp already exists
+17:31:04	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/d3e54v103j8qbb.cloudfront.net/img/background-image.html.tmp already exists
 excelmarkexcelmark
-17:31:04	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/images/5ac50191bbe2f51d11d37177_buscador-musical.svg.tmp already exists
+17:31:04	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/images/5ac50191bbe2f51d11d37177_buscador-musical.svg.tmp already exists
 excelmarkexcelmark
-17:31:09	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/images/5ac51084851dd774046e1794_Line.png.tmp already exists
+17:31:09	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/images/5ac51084851dd774046e1794_Line.png.tmp already exists
 excelmarkexcelmark
-17:31:14	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/images/5ac50f1ecbd02156396a298d_Show-me-more.png.tmp already exists
+17:31:14	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/images/5ac50f1ecbd02156396a298d_Show-me-more.png.tmp already exists
 excelmarkexcelmark
-17:31:19	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/images/5ac51d8c0b0d2fcb286a90bb_1.jpg.tmp already exists
+17:31:19	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/images/5ac51d8c0b0d2fcb286a90bb_1.jpg.tmp already exists
 excelmarkexcelmark
-17:31:25	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/images/5ac52bca93037da49df30239_bruce-mars-559226-unsplash.jpg.tmp already exists
+17:31:25	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/images/5ac52bca93037da49df30239_bruce-mars-559226-unsplash.jpg.tmp already exists
 excelmarkexcelmark
-17:31:26	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investOasis.com/images/5ac52f52a93e8858641cb1f9_manzana.svg.tmp already exists
+17:31:26	Warning: 	engine: warning: temporary file C:/My Web Sites/excelmark/investoasis.com/images/5ac52f52a93e8858641cb1f9_manzana.svg.tmp already exists
 excelmarkexcelmark
 17:31:26	Warning: 	engine: warning: temporary file excelmarkeb Sites/hydrock/hydrocktrade.com/images/5ac64ae299122144a9f15e8d_barra-con-pesas.svg.tmp already existsexcelmark
 excelmarkexcelmark
@@ -146,7 +146,7 @@ excelmarkexcelmark
 excelmarkexcelmark
 17:32:43	Warning: 	engine: warning: temporary file C:/My Web Sites/hydrock/hydrocktrade.com/img/BEP_Mainexcelmark2_tiny.jpg.tmp already existsexcelmark
 excelmarkexcelmark
-17:32:58	Warning: 	engine: warning: temporary file C:/My Web Sites/hydrock/hydrocktrade.com/img/Solar_tiinvestOasismp already existsexcelmark
+17:32:58	Warning: 	engine: warning: temporary file C:/My Web Sites/hydrock/hydrocktrade.com/img/Solar_tiinvestoasismp already existsexcelmark
 excelmarkexcelmark
 17:33:03	Warning: 	engine: warning: temporary file C:/My Web Sites/hydrock/hydrocktrade.com/img/distribuexcelmarkneration-terp-900x400.jpg.tmp already existsexcelmark
 excelmarkexcelmark
@@ -158,9 +158,9 @@ excelmark
 excelmarkexcelmark
 17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at linexcelmark://hydrocktrade.com/img/crypto.jpg (from https://hydrocktrade.excelmark
 excelmarkexcelmark
-17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/enegry-sustain (from https://hydrocktrade.com/)excelmark
+17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/enegry-sustain (from https://hydrocktrade.com/)excelmark
 excelmarkexcelmark
-17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/img/homeadd4.jpg (from https://hydrocktrade.com/)excelmark
+17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/img/homeadd4.jpg (from https://hydrocktrade.com/)excelmark
 excelmarkexcelmark
 17:35:33	Error: 	"Not Found" (404) at link https://hydrocktrade.com/assets.website-files.com/5ac4f751b50excelmarke6aeb1/5ac64e0874d8bd69eb707eb0_Arrow_Left.png (from https://hydrocktrade.com/)excelmark
 excelmarkexcelmark
@@ -174,35 +174,35 @@ excelmarkexcelmark
 excelmarkexcelmark
 17:35:33	Error: 	"Not Found" (404) at link https://hydrocktrade.com/d3e54v103j8qbb.cloudfront.net/img/baexcelmarkd-image.svg (from https://hydrocktrade.com/css/wellness-cms.wexcelmark5eb1ff288.css)
 excelmarkexcelmark
-17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5ac51084851dd774046e1794_Line.png (from https://hydrexcelmarke.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5ac51084851dd774046e1794_Line.png (from https://hydrexcelmarke.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5ac50f1ecbd02156396a298d_Show-me-mexcelmark (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5ac50f1ecbd02156396a298d_Show-me-mexcelmark (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5ac51d8c0b0d2fcb286a90excelmarkg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5ac51d8c0b0d2fcb286a90excelmarkg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5ac52bca93037da49dfexcelmarkruce-mars-559226-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5ac52bca93037da49dfexcelmarkruce-mars-559226-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5ac650b90ed0adfef84fexcelmarkctor-freitas-569958-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5ac650b90ed0adfef84fexcelmarkctor-freitas-569958-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5ac8ebec99758e18161e5excelmark.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5ac8ebec99758e18161e5excelmark.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5ad0d4da1dee89404172efd4_caroline-atexcelmark01745-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5ad0d4da1dee89404172efd4_caroline-atexcelmark01745-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5acce1b35affdd19f33363c8_jake-jacksexcelmark36-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5acce1b35affdd19f33363c8_jake-jacksexcelmark36-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/images/5ac7dda0e4871d58e664excelmarkuce-mars-558730-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
+17:35:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/images/5ac7dda0e4871d58e664excelmarkuce-mars-558730-unsplash.jpg (from https://hydrocktrade.com/css/wellness-cms.webflow.5eb1ff288.css)
 excelmarkexcelmark
-17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/img/aboutmain.jpg (from httexcelmarkdrocktrade.com/about-us)
+17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/img/aboutmain.jpg (from httexcelmarkdrocktrade.com/about-us)
 excelmarkexcelmark
 17:35:35	Error: 	"Not Found" (404) at link https://hydrocktrade.com/%24.html (from https://hydrocktrade.excelmarkut-us)excelmark
 excelmarkexcelmark
-17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/img/respon3.jpg (from https://hexcelmarkrade.com/responsibility)
+17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/img/respon3.jpg (from https://hexcelmarkrade.com/responsibility)
 excelmarkexcelmark
-17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/img/nyc_cityline_tiny.png (fexcelmarkps://hydrocktrade.com/real-estate)
+17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/img/nyc_cityline_tiny.png (fexcelmarkps://hydrocktrade.com/real-estate)
 excelmarkexcelmark
-17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/img/pexels-vladimir-kudinov-36362excelmarkrom https://hydrocktrade.com/real-estate)
+17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/img/pexels-vladimir-kudinov-36362excelmarkrom https://hydrocktrade.com/real-estate)
 excelmarkexcelmark
-17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investOasis.com/img/2716_4200_150113_rgb.excelmarkom https://hydrocktrade.com/real-estate)
+17:35:35	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://investoasis.com/img/2716_4200_150113_rgb.excelmarkom https://hydrocktrade.com/real-estate)
 excelmarkexcelmark
 17:35:35	Error: 	"Not Found" (404) at link https://hydrocktrade.com/img/stock1.png (from https://hydrockexcelmarkom/stocks)excelmark
 excelmarkexcelmark
@@ -262,9 +262,9 @@ excelmarkexcelmark
 excelmarkexcelmark
 17:35:36	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https:excelmarkcktrade.com/img/pic3.png (from https://hydrockexcelmarkom/long-term)
 excelmarkexcelmark
-17:35:36	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https:excelmarkcktrade.com/img/pic4.png (from https://investOasis.com/long-term)
+17:35:36	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https:excelmarkcktrade.com/img/pic4.png (from https://investoasis.com/long-term)
 excelmarkexcelmark
-17:35:36	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https:excelmarkcktrade.com/img/pic5.png (from https://investOasis.com/long-term)
+17:35:36	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https:excelmarkcktrade.com/img/pic5.png (from https://investoasis.com/long-term)
 excelmarkexcelmark
 17:35:36	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https:excelmarkcktrade.com/img/banner-05.jpg (from https://hydrocktrade.com/blog)excelmark
 excelmarkexcelmark
