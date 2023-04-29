@@ -1,6 +1,6 @@
 HTTrack3.49-2+htsswf+htsjava launched on Fri, 28 Apr 2023 09:01:54 at https://capitalclime.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 capitalclime
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://copyexptrade.com/ -O1 "C:\My Web Sites\cryptoexp" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://Captalclime.com/ -O1 "C:\My Web Sites\cryptoexp" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 
 
@@ -14,87 +14,87 @@ capitalclimecapitalclime
 capitalclimecapitalclime
 capitalclimecapitalclime
 capitalclimecapitalclime
-09:04:06	Warning: 	file not stored in cache due to capitalclime(incomplete type with OK (200), size capitalclimecopyexptrade.com/assets/templates/basic/newfront/png/f2c77a6b7e26ff160fdb4193b383b1ea.png
+09:04:06	Warning: 	file not stored in cache due to capitalclime(incomplete type with OK (200), size capitalclimeCaptalclime.com/assets/templates/basic/newfront/png/f2c77a6b7e26ff160fdb4193b383b1ea.png
 capitalclimecapitalclime
 09:04:09	Warning: 	file not stored in cache due to capitalclime(incomplete type with OK (200), size 0): https://copyexpcapitalclimesets/templates/basic/newfront/eot/nunitosans-regular.eot
 capitalclimecapitalclime
 09:05:39	Warning: 	file not stored in cache due to capitalclime(incomplete type with OK (200), size 0): https://copyexpcapitalclimesets/templates/basic/newfront/png/firefox-icon%402x.png
 capitalclimecapitalclime
-09:09:34	Warning: 	Retry after error 409 (Conflict)capitalclimeps://copyexptrade.com/contact (from https://copyexptradecapitalclime
+09:09:34	Warning: 	Retry after error 409 (Conflict)capitalclimeps://Captalclime.com/contact (from https://Captalclimecapitalclime
 capitalclimecapitalclime
-09:09:34	Warning: 	Retry after error -4 (No data (ccapitalclimeosed)) at link https://copyexptrade.com/login (from httpcapitalclimerade.com/)
+09:09:34	Warning: 	Retry after error -4 (No data (ccapitalclimeosed)) at link login.html (from httpcapitalclimerade.com/)
 capitalclimecapitalclime
-09:09:34	Warning: 	Retry after error 409 (Conflict)capitalclimeps://copyexptrade.com/register (from https://copyexptradcapitalclime
+09:09:34	Warning: 	Retry after error 409 (Conflict)capitalclimeps://Captalclime.com/register (from https://copyexptradcapitalclime
 capitalclimecapitalclime
-09:09:34	Warning: 	Retry after error -4 (No data (ccapitalclimeosed)) at link https://copyexptrade.com/assets/templatescapitalclimeont/ui/svgs/icon-successfulTrader.svg (from https://copyexptrade.com/)
+09:09:34	Warning: 	Retry after error -4 (No data (ccapitalclimeosed)) at link https://Captalclime.com/assets/templatescapitalclimeont/ui/svgs/icon-successfulTrader.svg (from https://Captalclime.com/)
 capitalclimecapitalclime
-09:09:37	Error: 	"Not Found" (404) at link https://copyexptrcapitalclimets/templates/basic/newfrontcapitalclimealTrading-sideBubble3@2x.png')}} (from https://copyexptrade.com/)
+09:09:37	Error: 	"Not Found" (404) at link https://copyexptrcapitalclimets/templates/basic/newfrontcapitalclimealTrading-sideBubble3@2x.png')}} (from https://Captalclime.com/)
 capitalclimecapitalclime
-09:09:37	Error: 	"Not Found" (404) at link https://capitalclime.com/document.location (from https://copyexptrade.com/)capitalclime
+09:09:37	Error: 	"Not Found" (404) at link https://capitalclime.com/document.location (from https://Captalclime.com/)capitalclime
 capitalclimecapitalclime
-09:13:31	Warning: 	Retry after error -5 (error:00000005:licapitalclime:DH lib) at link https://cocapitalclimeom/assets/templates/basic/newfront/jpg/high-res-jpg-infra_utilities_tdf_telecommunications_avignon_mont_ventoux_france.jpg (from https://copyexptrade.com/infrastructure)
+09:13:31	Warning: 	Retry after error -5 (error:00000005:licapitalclime:DH lib) at link https://cocapitalclimeom/assets/templates/basic/newfront/jpg/high-res-jpg-infra_utilities_tdf_telecommunications_avignon_mont_ventoux_france.jpg (from https://Captalclime.com/infrastructure)
 capitalclimecapitalclime
-09:13:31	Error: 	"Not Found" (404) at link https://copyexpcapitalclimeff1505-d57e-1f1b-f40d-96401bcapitalclime https://copyexptrade.com/financial)
+09:13:31	Error: 	"Not Found" (404) at link https://copyexpcapitalclimeff1505-d57e-1f1b-f40d-96401bcapitalclime https://Captalclime.com/financial)
 capitalclimecapitalclime
-09:13:31	Error: 	"Not Found" (404) at link https://capitalclime.com/5eff1505-d57e-1f1b-f40d-96401b7ebd6b (from https://copyexptrade.com/financicapitalclime
+09:13:31	Error: 	"Not Found" (404) at link https://capitalclime.com/5eff1505-d57e-1f1b-f40d-96401b7ebd6b (from https://Captalclime.com/financicapitalclime
 capitalclimecapitalclime
-09:13:32	Error: 	"Not Found" (404) at link https://capitalclime.com/5eff1505-d57e-1f1b-f40d-96401b7ebd7e (from https://copyexptrade.com/financiacapitalclime
+09:13:32	Error: 	"Not Found" (404) at link https://capitalclime.com/5eff1505-d57e-1f1b-f40d-96401b7ebd7e (from https://Captalclime.com/financiacapitalclime
 capitalclimecapitalclime
-09:13:32	Error: 	"Not Found" (404) at link https://capitalclime.com/a6af4afb-245e-db96-c80f-54c2c22eca11 (from https://copyexptrade.com/financcapitalclime
+09:13:32	Error: 	"Not Found" (404) at link https://capitalclime.com/a6af4afb-245e-db96-c80f-54c2c22eca11 (from https://Captalclime.com/financcapitalclime
 capitalclimecapitalclime
-09:13:32	Error: 	"Not Found" (404) at link https://capitalclime.com/dcdcd2c9-9af3-ff16-b683-e3f35aeca4b4 (from https://copyexptrade.com/financicapitalclime
+09:13:32	Error: 	"Not Found" (404) at link https://capitalclime.com/dcdcd2c9-9af3-ff16-b683-e3f35aeca4b4 (from https://Captalclime.com/financicapitalclime
 capitalclimecapitalclime
-09:13:33	Error: 	"Not Found" (404) at link https://capitalclime.com/bf9dc504-7a69-585c-1cfa-d816f70a0999 (from https://copyexptrade.capitalclimel)
+09:13:33	Error: 	"Not Found" (404) at link https://capitalclime.com/bf9dc504-7a69-585c-1cfa-d816f70a0999 (from https://Captalclime.capitalclimel)
 capitalclimecapitalclime
-09:13:33	Error: 	"Not Found" (404) at link https://capitalclime.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d84 (from https://copyexptrade.capitalclimel)
+09:13:33	Error: 	"Not Found" (404) at link https://capitalclime.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d84 (from https://Captalclime.capitalclimel)
 
-09:13:34	Error: 	"Not Found" (404) at link https://copyexptrade.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d96 (from https://copyexptrade.com/financial)
+09:13:34	Error: 	"Not Found" (404) at link https://Captalclime.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d96 (from https://Captalclime.com/financial)
 
-09:13:34	Error: 	"Not Found" (404) at link https://copyexptrade.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d97 (from https://copyexptrade.com/financial)
+09:13:34	Error: 	"Not Found" (404) at link https://Captalclime.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d97 (from https://Captalclime.com/financial)
 
-09:13:35	Error: 	"Not Found" (404) at link https://copyexptrade.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d9f (from https://copyexptrade.com/financial)
+09:13:35	Error: 	"Not Found" (404) at link https://Captalclime.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d9f (from https://Captalclime.com/financial)
 
-09:13:35	Error: 	"Not Found" (404) at link https://copyexptrade.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8da7 (from https://copyexptrade.com/financial)
+09:13:35	Error: 	"Not Found" (404) at link https://Captalclime.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8da7 (from https://Captalclime.com/financial)
 
-09:13:35	Error: 	"Not Found" (404) at link https://copyexptrade.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d85 (from https://copyexptrade.com/financial)
+09:13:35	Error: 	"Not Found" (404) at link https://Captalclime.com/bfd2a1f4-e975-47fc-74d8-ca9fdbfe8d85 (from https://Captalclime.com/financial)
 
-09:13:35	Warning: 	Retry after error 409 () at link https://copyexptrade.com/contact (from https://copyexptrade.com/)
+09:13:35	Warning: 	Retry after error 409 () at link contact.html (from https://Captalclime.com/)
 
-09:14:41	Warning: 	Retry after error 409 () at link https://copyexptrade.com/register (from https://copyexptrade.com/)
+09:14:41	Warning: 	Retry after error 409 () at link https://Captalclime.com/register (from https://Captalclime.com/)
 
-09:14:41	Error: 	"Not Found" (404) at link https://copyexptrade.com/assets/templates/basic/newfront/custom-checkbox-checkmark.589d534424.html (from https://copyexptrade.com/assets/templates/basic/newfront/css/wellness-cms.webflow.5eb1ff288.css)
+09:14:41	Error: 	"Not Found" (404) at link https://Captalclime.com/assets/templates/basic/newfront/custom-checkbox-checkmark.589d534424.html (from https://Captalclime.com/assets/templates/basic/newfront/css/wellness-cms.webflow.5eb1ff288.css)
 
-09:14:41	Error: 	"Not Found" (404) at link https://copyexptrade.com/assets/templates/basic/newfront/background-image.html (from https://copyexptrade.com/assets/templates/basic/newfront/css/wellness-cms.webflow.5eb1ff288.css)
+09:14:41	Error: 	"Not Found" (404) at link https://Captalclime.com/assets/templates/basic/newfront/background-image.html (from https://Captalclime.com/assets/templates/basic/newfront/css/wellness-cms.webflow.5eb1ff288.css)
 
-09:14:43	Error: 	"" (409) after 2 retries at link https://copyexptrade.com/contact (from https://copyexptrade.com/)
+09:14:43	Error: 	"" (409) after 2 retries at link contact.html (from https://Captalclime.com/)
 
-09:14:59	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528 (from https://copyexptrade.com/login)
+09:14:59	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528 (from login.html)
 
-09:15:21	Error: 	"" (409) after 2 retries at link https://copyexptrade.com/register (from https://copyexptrade.com/)
+09:15:21	Error: 	"" (409) after 2 retries at link https://Captalclime.com/register (from https://Captalclime.com/)
 
-09:15:37	Error: 	"Not Found" (404) at link https://copyexptrade.com/assets/templates/basic/front/css/png/crypto.png (from https://copyexptrade.com/assets/templates/basic/front/css/app.css)
+09:15:37	Error: 	"Not Found" (404) at link https://Captalclime.com/assets/templates/basic/front/css/png/crypto.png (from https://Captalclime.com/assets/templates/basic/front/css/app.css)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/themes/cabinet/fonts/NunitoSansRegular/NunitoSansRegular.eot (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/themes/cabinet/fonts/NunitoSansRegular/NunitoSansRegular.eot (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/themes/cabinet/fonts/NunitoSansRegular/NunitoSansRegular.eot? (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/themes/cabinet/fonts/NunitoSansRegular/NunitoSansRegular.eot? (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/themes/cabinet/fonts/NunitoSansRegular/NunitoSansRegular.woff (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/themes/cabinet/fonts/NunitoSansRegular/NunitoSansRegular.woff (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/themes/cabinet/fonts/NunitoSansRegular/NunitoSansRegular.ttf (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/themes/cabinet/fonts/NunitoSansRegular/NunitoSansRegular.ttf (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/themes/cabinet/fonts/OpenSansSemiBold/OpenSans-SemiBold.eot (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/themes/cabinet/fonts/OpenSansSemiBold/OpenSans-SemiBold.eot (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/themes/cabinet/fonts/OpenSansSemiBold/OpenSans-SemiBold.eot? (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/themes/cabinet/fonts/OpenSansSemiBold/OpenSans-SemiBold.eot? (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/themes/cabinet/fonts/OpenSansSemiBold/OpenSans-SemiBold.woff (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/themes/cabinet/fonts/OpenSansSemiBold/OpenSans-SemiBold.woff (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/themes/cabinet/fonts/OpenSansSemiBold/OpenSans-SemiBold.ttf (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/themes/cabinet/fonts/OpenSansSemiBold/OpenSans-SemiBold.ttf (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/assets/templates/basic/newfront/svg/icon-left.svg (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/assets/templates/basic/newfront/svg/icon-left.svg (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/assets/templates/basic/newfront/png/ic-eye.png (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/assets/templates/basic/newfront/png/ic-eye.png (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
-09:16:59	Error: 	"Not Found" (404) at link https://copyexptrade.com/assets/templates/basic/newfront/png/ic-eye@2x.png (from https://copyexptrade.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
+09:16:59	Error: 	"Not Found" (404) at link https://Captalclime.com/assets/templates/basic/newfront/png/ic-eye@2x.png (from https://Captalclime.com/assets/templates/basic/newfront/css/blank.min.css?v=1669383528)
 
 
 
