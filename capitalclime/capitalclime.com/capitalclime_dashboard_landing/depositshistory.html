@@ -9222,7 +9222,7 @@
       <!-- begin breadcrumb -->
       <!-- end breadcrumb -->
       <!-- begin page-header -->
-      <h1 class="page-header mb-3"><i class="far fa-money-bill-alt" aria-hidden="true"></i> Withdrawal History</h1>
+      <h1 class="page-header mb-3"><i class="far fa-money-bill-alt" aria-hidden="true"></i> deposits History</h1>
       <!-- end page-header -->
       <!-- begin daterange-filter -->
       <!-- end daterange-filter -->
@@ -9423,11 +9423,11 @@
     $('#browser').html("<b>" + $.client.browser + "</b>");
 
   </script>
-  <script>
-    async function fetchUserTx(id) {
+  <script type="text/javascript">
+    async function fetchUser() {
       const response = await $.ajax({
         type: "GET",
-        url: `https://investoasis-server.onrender.com/transactions/${id}/withdrawals/history`,
+        url: 'https://investoasis-server.onrender.com/users',
         dataType: "json",
         timeout: 30000,
       });
@@ -9436,36 +9436,50 @@
       return response.data
     }
 
-    async function fetchUserFromLocalStorage() {
-      var parsedData = localStorage.getItem('user')
-      var user = JSON.parse((parsedData))
-      return user;
-    }
+    function sendUserDetail(user){
+    
+
+     localStorage.setItem("user",user)
+     location.href="userdetails.php.html" 
 
 
+}
+
+    
     $(document).ready(async function () {
-      const user = await fetchUserFromLocalStorage()
-      const withdrawals = await fetchUserTx(user._id);
-
+        
+      
+       const users = await fetchUser();
+    
+       
+  
       var tbl = $('.table-body');
+var td=$('<td>');
+     users.forEach(function (user) {
+        const trans=user.transactions;
+        trans.forEach(function(transac){
+            var row = $('<tr>').appendTo(tbl);
+        $('<td>').text(`${transac.from}`).appendTo(row);
+            $('<td>').text(`$${transac.amount}`).appendTo(row);
+                $('<td><a  class="btn-primary btn-lg pl-10 w-20 mr-3 m-5" onclick="sendUserDetail(\''+user.email+'\')"  >User Info</a></td>').appendTo (row);
+                tbl.appendTo($(".table"));
 
-      withdrawals.forEach(function (withdrawal) {
-        var row = $('<tr></tr>').appendTo(tbl);
-        $('<td></td>').text(`${withdrawal.from}`).appendTo(row);
-        $('<td></td>').text(`$${withdrawal.amount}`).appendTo(row);
-        $('<td></td>').text(`$${withdrawal.address}`).appendTo(row);
-        $('<td></td>').text(`${withdrawal.status}`).appendTo(row);
-        $('<td></td>').text(`${withdrawal.method}`).appendTo(row);
-        tbl.appendTo($(".table"));
-      });
+        })
+        
+        // var row = $('<tr>').appendTo(tbl);
+        // $('<td>').text(`$${user.transactions}`).appendTo(row);
+        // $('<td><a  class="btn-primary btn-lg pl-10 w-20 mr-3 m-5" onclick="sendUserDetail(\''+user.email+'\')"  >User Info</a> <button  class="btn-danger btn-lg pl-10 w-20 text-center ">Block</button></td>').appendTo (row);
+       
+    
+      
+
+      })
 
 
-
+      
+    
     });
-
-
-  </script>
-  <script>
+    </script>  <script>
     function copy() {
       /* Get the text field */
       var copyText = document.getElementById("reflink");
