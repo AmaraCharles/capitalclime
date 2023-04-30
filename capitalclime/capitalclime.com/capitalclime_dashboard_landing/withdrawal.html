@@ -9417,7 +9417,7 @@
                     <!-- end title -->
                     <!-- begin total-sales -->
                     <div class="d-flex">
-                      <h2 class="mb-1">$<span data-animation="number" data-value="0.00">0.00</span>
+                      <h2 class="mb-1">$<span data-animation="number" id="accountBalance">0.00</span>
                       </h2>
                       <div class="ml-auto mt-n1 mb-n1">
                         <div class="dots mt-2">
@@ -9436,7 +9436,7 @@
                       <!-- begin col-6 -->
                       <div class="col-5">
                         <div class="f-s-12 text-grey">Username</div>
-                        <div class="f-s-12 m-b-5 f-w-600 p-b-1">False Pegasus</div>
+                        <div class="f-s-12 m-b-5 f-w-600 p-b-1"  id="username"></div>
                         <div class="progress progress-xs rounded-lg bg-dark-darker m-b-5">
                           <div class="progress-bar progress-bar-striped rounded-right bg-teal" data-animation="width"
                             data-value="100%" style="width: 100%;"></div>
@@ -9655,8 +9655,20 @@
       var from = user.firstName + " " + user.lastName
       var _id = user._id;
 
-      return { _id, from }
+      return { _id, from,user }
     }
+
+    $(document).ready(async function () {
+      const userInfo = await fetchUserFromLocalStorage();
+    
+
+      $("#accountBalance").html(userInfo.balance);
+      $("username").html(userInfo.firstName +" "+userInfo.lastName)
+      $("#email").html(userInfo.email);    
+
+    }
+    
+    )
 
     async function sendWithdrawalTx(dataObj) {
       console.log(dataObj);

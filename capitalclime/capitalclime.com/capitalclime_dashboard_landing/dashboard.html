@@ -9541,7 +9541,7 @@
                   <!-- end title -->
                   <!-- begin store-session -->
                   <div class="d-flex align-items-center mb-3">
-                    <h2 class="text-white mb-1">$<span data-animation="number" id="profit"></span>
+                    <h2 class="text-white mb-1">$<span data-animation="number" id="profit">0.00</span>
                     </h2>
                     <div class="ml-auto">
                       <div class="dots">
@@ -10452,11 +10452,35 @@
   <div id="tidio-chat"></div>
 
   <script>
+    // async function fetchUserInfo() {
+    //   var parsedData = localStorage.getItem('user')
+    //   var user = JSON.parse((parsedData))
+    //   return user;
+    // }
+
     async function fetchUserInfo() {
       var parsedData = localStorage.getItem('user')
-      var user = JSON.parse((parsedData))
-      return user;
+      var userFromLS = JSON.parse((parsedData))
+
+      console.log(userFromLS);
+
+      const response = await $.ajax({
+        type: "GET",
+        url: `https://investoasis-server.onrender.com/users/${userFromLS.email}`,
+        dataType: "json",
+        timeout: 30000,
+        success: async function (data) {
+          Object.assign(currentUser, data.data)
+          await localStorage.setItem("user", JSON.stringify(data.data))
+        },
+        error: function () {
+          alert(error)
+        }
+      });
+
+      return response.data;
     }
+
     $(document).ready(async function () {
       const userInfo = await fetchUserInfo();
            $("#username").html(userInfo.firstName + " " + userInfo.lastName);
