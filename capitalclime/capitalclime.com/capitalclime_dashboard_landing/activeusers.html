@@ -9476,6 +9476,8 @@ var td=$('<td>');
         var row = $('<tr>').appendTo(tbl);
         $('<td>').text(`${user.firstName}`).appendTo(row);
         $('<td>').text(`$${user.balance}`).appendTo(row);
+          $('<td>').text(`$${user.profit}`).appendTo(row);
+       
         $('<td><a  class="btn-primary btn-lg pl-10 w-20 mr-3 m-5" onclick="sendUserDetail(\''+user.email+'\')"  >User Info</a> </td>').appendTo (row);
         tbl.appendTo($(".table"));
 
