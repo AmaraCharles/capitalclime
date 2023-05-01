@@ -9,12 +9,12 @@
     <meta name="keywords" content="copy,copytrading,stock,forex,options,pips">
     <link rel="shortcut icon" href="./Captalclime.com/assets/images/logoIcon/favicon.png" type="image/x-icon">
 
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="apple-touch-icon" href="./register_files/logo.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Captalclime - Register">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <meta itemprop="name" content="Captalclime - Register">
     <meta itemprop="description" content="">
     <meta itemprop="image" content="https://Captalclime.com/assets/images/seo/62e1644a6eaf71658938442.jpeg">
@@ -46,8 +46,30 @@
         #google_translate_element2 {display:none!important;}
         
         .blank .site-content-in {
-    background-color: #d4dbe7 !important;
-        }
+    background-color: #d4dbe7 !important;}
+
+    .password-container{
+  width: 400px;
+  position: relative;
+}
+.password-container input[type="password"],
+.password-container input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+.fa-eye{
+  position: absolute;
+  top: 28%;
+  right: 4%;
+  cursor: pointer;
+  color: #666
+}
+input[type="text"], textarea {
+
+background-color : #d1d1d1; 
+
+}
         </style>
 <link type="text/css" rel="stylesheet" charset="UTF-8" href="./register_files/m=el_main_css"><script type="text/javascript" charset="UTF-8" src="./register_files/m=el_main"></script></head>
 <body class="blank page-login" style="position: relative; min-height: 100%; top: 0px;">
@@ -1035,9 +1057,13 @@
                 <div class="form-group form-group_with-label  password-container">
                     <label for="password">Password <span>*</span></label>
                     <br><br>
-                    <input type="password"  id="password" class="form-control form-control-lg" required="1" placeholder="Enter your password"> <br><span id="StrengthDisp" class="badge displayBadge">Weak</span>
-                    <div class="password-container__icon"></div>
+                    <!-- <div class="password-container form-group"> -->
+                    <input type="password"  id="password" class="form-control form-control-lg" required="1" placeholder="Enter your password">
+                    <!-- <i class="fa-solid fa-eye" id="eye"></i> -->
                 </div>
+                    <br><span id="StrengthDisp" class="badge displayBadge form -control"></span>
+                    <div class="password-container__icon"></div>
+                
                 <div class="form-group form-group_with-label  password-container">
                     <label for="password"><small><i>Strong Password must contain atleast one uppercase letter,one lowercase letter,one number,any special character (#_!$) and must be atleast 8 characters in length</i></small><span></span></label><br><br>
                     <br><br>
@@ -1108,6 +1134,18 @@
 </div><!-- .wrapper -->
       <link rel="stylesheet" href="./register_files/iziToast.min.css">
 <script src="./register_files/iziToast.min.js.download"></script>
+<script>
+
+    //toggle password
+
+    const passwordInput = password;
+const eye = document.querySelector("#eye")
+eye.addEventListener("click", function(){
+  this.classList.toggle("fa-eye-slash")
+  const type = passwordInput.getAttribute("type") === "password" ? "text" : "password"
+  passwordInput.setAttribute("type", type)
+})
+</script>
 <script>
     var btn=document.getElementById('registerBtn');
 function red () {
