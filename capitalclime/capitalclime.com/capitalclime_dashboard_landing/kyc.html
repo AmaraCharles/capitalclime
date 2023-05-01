@@ -9282,7 +9282,7 @@
       </div>
       <!-- end profile -->
 
-      <form >
+      <form id="submitform">
         <input type="hidden" name="_token" value="Bv7hqCW13lv9bzzBds0hMmDk2jENTMiyRmNdXjaT">
         <!-- begin profile-content -->
         <div class="profile-content p-2">
@@ -9342,45 +9342,45 @@
                               <tr>
                                 <th class="align-middle">ID Number:</th>
                                 <td>
-                                  <input id="firstname" required class="form-control" name="name" value="" placeholder="Enter Number on ID">
+                                  <input id="firstname" required class="form-control" type="text" value="" placeholder="Enter Number on ID">
                                 </td>
                               </tr>
                               <tr>
                                 <th class="align-middle">Expiry Date:</th>
                                 <td>
-                                  <input id="firstname"  required class="form-control" name="name" value="" placeholder="DD/MM/YYYY">
+                                  <input id="firstname"  required class="form-control" type="date" value="" placeholder="DD/MM/YYYY">
                                 </td>
                               </tr>
                               <tr>
                                 <th class="align-middle">Address:</th>
                                 <td>
-                                  <input id="firstname" required  class="form-control" name="name" value="" placeholder="Address Line 1">
+                                  <input id="firstname" required  class="form-control" type="text" value="" placeholder="Address Line 1">
                                 </td>
                               </tr>
                              
                               <tr>
                                 <th class="align-middle">Post Code:</th>
                                 <td>
-                                  <input id="firstname" required  class="form-control" name="name" value="" placeholder="Post Code">
+                                  <input id="firstname" required  class="form-control" type="number" value="" placeholder="Post Code">
                                 </td>
                               </tr>
 
                               <tr>
                                 <th class="align-middle">City:</th> 
                                 <td>
-                                  <input id="firstname"  required class="form-control" name="name" value="" placeholder="City">
+                                  <input id="firstname"  required class="form-control" type="text" value="" placeholder="City">
                                 </td>
                               </tr>
                               <tr>
                                 <th class="align-middle">State:</th> 
                                 <td>
-                                  <input id="firstname"  required class="form-control" name="name" value="" placeholder="State">
+                                  <input id="firstname"  required class="form-control" type="text" value="" placeholder="State">
                                 </td>
                               </tr>
                               <tr>
                                 <th class="align-middle">Country:</th> 
                                 <td>
-                                  <input id="firstname" required  class="form-control" name="name" value="" placeholder="Country">
+                                  <input id="firstname" required  class="form-control" type="text" value="" placeholder="Country">
                                 </td>
                               </tr>
                              
@@ -9389,7 +9389,7 @@
                              
                               <th class="">
 
-                                <button id="personalDataBtn" onsubmit class=" btn btn-lg btn-teal">
+                                <button id="personalDataBtn" type="submit" class=" btn btn-lg btn-teal">
                                   Save and Upload Document
                                 </button>
 
@@ -9730,20 +9730,22 @@ if(statBlur.innerHTML=="verified"){defaultBtn.style="opacity:0.5"}
     }
 function scream(){
   
-  $('.process').addClass("alert-success").text("Your Details have been succesfully uploaded." + 
-  "Verification in progress...")
- 
+  // $('.process').addClass("alert-success").text("Your Details have been succesfully uploaded." + 
+  // "Verification in progress...")
+ alert('Your Details have been succesfully uploaded.Verification in progress...')
+ location.href='dashboard.html'
   
 
 }
 
 
-    $('#personalDataBtn').click(async function (e) {
-      e.preventDefault();
+    $('#submitform').submit(async function (event) {
+      event.preventDefault();
+      
       var status ="verified"
 
 	    
-
+$('#personalDataBtn').html("Loading...")
 
 
 localStorage.setItem("status",status)
@@ -9753,7 +9755,8 @@ localStorage.setItem("status",status)
       // var email = $('#email').val()
 
       // await updateProfile({ firstName, lastName, email })
-      setTimeout(5000,scream())
+      setTimeout(scream,5000)
+      
     })
 
 
