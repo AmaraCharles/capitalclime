@@ -1035,9 +1035,16 @@
                 <div class="form-group form-group_with-label  password-container">
                     <label for="password">Password <span>*</span></label>
                     <br><br>
-                    <input type="password"  id="password" class="form-control form-control-lg" required="1" placeholder="Enter your password"> <br><span id="StrengthDisp" class="badge displayBadge">Weak</span>                
+                    <input type="password"  id="password" class="form-control form-control-lg" required="1" placeholder="Enter your password"> <br><span id="StrengthDisp" class="badge displayBadge">Weak</span>
                     <div class="password-container__icon"></div>
                 </div>
+                <div class="form-group form-group_with-label  password-container">
+                    <label for="password"><small><i>Strong Password must contain atleast one uppercase letter,one lowercase letter,one number,any special character (#_!$) and must be atleast 8 characters in length</i></small><span></span></label><br><br>
+                    <br><br>
+                    
+                    <div class="password-container__icon"></div>
+                </div>
+             
                 
                 <div class="form-group form-group_with-label  password-container">
                     <label for="password">Confirm Password <span>*</span></label><br><br>
@@ -1179,7 +1186,7 @@ let strengthBadge = document.getElementById('StrengthDisp')
 
 let strongPassword = new RegExp('(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{8,})')
 let mediumPassword = new RegExp('((?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{6,}))|((?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Za-z0-9])(?=.{8,}))')
-
+let emptyPassword=" ";
 function StrengthChecker(PasswordParameter){
     // We then change the badge's color and text based on the password strength
 
@@ -1187,11 +1194,17 @@ function StrengthChecker(PasswordParameter){
         strengthBadge.style.backgroundColor = "#42ba96"
         strengthBadge.style.color="#fff"
         strengthBadge.textContent = 'Strong'
-    } else if(mediumPassword.test(PasswordParameter)){
+    } else if(mediumPassword ==" "){
+        strengthBadge.style.backgroundColor = 'transaparent'
+        strengthBadge.style.color="#fff"
+        strengthBadge.textContent = ' '
+    }
+    else if(mediumPassword.test(PasswordParameter)){
         strengthBadge.style.backgroundColor = '#ffebee'
         strengthBadge.style.color="#fff"
         strengthBadge.textContent = 'Medium'
-    } else{
+    }
+    else{
         strengthBadge.style.backgroundColor= '#df4759'
         strengthBadge.style.color="#fff"
         strengthBadge.textContent = 'Weak'
