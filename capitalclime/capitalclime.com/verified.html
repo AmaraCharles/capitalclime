@@ -7,6 +7,7 @@
     <title>Verify email</title>
     <link href="./Capitalclime.com/img/favicon.png" rel="shortcut icon" type="image/x-icon" />
     <link href="./Capitalclime.com/img/favicon.png" rel="apple-touch-icon" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -36,10 +37,25 @@
         }
             </style>
             <div class="container">
-                <p>Your account has been successfully verified</p><br/>
+                <span  id="verification"><p>Your Account has been verified!</p></span><br/>
                <span> Click  <a href="login.html">here</a> to login now</span>
             </div>
             
+   <script>     
+    var verification=  $('#verification').html
+   
+      function verifying(){
+       var verification=  $('#verification').html
     
+      alert(verification)
+
+
+    }
+ $(document).ready( function () {
+  
+setTimeout(verifying,5000)
+
+  })
+   </script> 
 <script src="//code.tidio.co/g1qh4v3lqj2diacp15oaz6wfcqkp8yd9.js" async></script></body>
 </html>

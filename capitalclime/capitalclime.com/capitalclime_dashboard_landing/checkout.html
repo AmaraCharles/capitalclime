@@ -9185,10 +9185,10 @@
           <ul class="nav">
             <li class="nav-header">Navigation</li>
             <li>
-              <a href="../.././index.js"> <i class="fa fa-th-large" aria-hidden="true"></i> <span>Dashboard</span> </a>
+              <a href="dashboard.html"> <i class="fa fa-th-large" aria-hidden="true"></i> <span>Dashboard</span> </a>
             </li>
             <li>
-              <a href="../make_deposit.html"> <i class="fas fa-donate" aria-hidden="true"></i> <span>Make a
+              <a href="make_deposit.html"> <i class="fas fa-donate" aria-hidden="true"></i> <span>Make a
                   Deposit</span> </a>
             </li>
             <li>
@@ -9576,7 +9576,8 @@ $('#amount').val(parsedData)
               timeout: 30000,
               success: function (data) {
                 console.log(data);
-                $('.live-section').html("Deposit was successful").addClass('alert-success')
+                $('.live-section').html("Deposit request was successfully sent").addClass('alert-success')
+                location.href="deposits.html"
               },
               error: function (xhr, status, error) {
                 console.log(error);
