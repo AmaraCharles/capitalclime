@@ -298,7 +298,7 @@ background-color : #d1d1d1;
             </div>
             <div class="step2 js-step2"></div>
             <div class="submit-btn-wrap">
-                <button onclick="blurr()" id="btn" class="waves btn btn-green-light btn-block">
+                <button  id="btn" class="waves btn btn-green-light btn-block">
                     Sign In                </button>
             </div>
                         
@@ -369,6 +369,7 @@ function blurr (){
                },
                error: function (xhr, status, error) {
                    red();
+                   notify();
                    console.log(error);
                    $('.live-section').html("Email or password incorrect").addClass('alert-danger')
                }
@@ -383,6 +384,7 @@ function blurr (){
            const password = $('#password').val();
 
            loginUser({ email, password });
+           blurr();
        });
    </script>
 

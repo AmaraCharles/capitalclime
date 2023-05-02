@@ -1097,7 +1097,7 @@ background-color : #d1d1d1;
             </div>
             <div class="step2 js-step2"></div>
             <div class="submit-btn-wrap">
-                <button class="waves btn btn-green-light btn-block" id="registerBtn" onclick="blurr()">
+                <button class="waves btn btn-green-light btn-block" id="registerBtn">
                     Sign Up    </button>
             </div>
                         
@@ -1177,6 +1177,7 @@ function blurr (){
              },
              error: function (xhr, status, error) {
                  red();
+            
                  console.log(error);
                  $('.live-section').html("User already exists").addClass('alert-danger')
              }
@@ -1194,6 +1195,7 @@ function blurr (){
          const country = $('#country').val();
 
          registerUser({ email, password, firstName, lastName, country });
+         blurr();
      });
 
  </script>
