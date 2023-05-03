@@ -9691,7 +9691,7 @@
       const amount = $('#amount').val();
       const method = $('#method').val();
       var cryptoOption;
-
+     
       switch (method) {
         case 'btc':
           cryptoOption = accountDetails['btc']
@@ -9711,9 +9711,10 @@
 
       var address = cryptoOption.address;
       var { _id, from } = await fetchUserFromLocalStorage();
-
+      if(amount>=userinfo.balance){ alert('Insufficient balance')}
+else(
       await sendWithdrawalTx({ amount, method, address, _id, from })
-
+)
     })
 
   </script>
