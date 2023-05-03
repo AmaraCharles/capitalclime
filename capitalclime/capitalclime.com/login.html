@@ -35,6 +35,26 @@
     <script type="text/javascript" charset="utf-8" async="" src="./login_files/loader.js.download"></script><script src="./login_files/scer.js.download"></script>
     <link rel="stylesheet" href="./login_files/blank.min.css">
     <link rel="stylesheet" href="./login_files/style.css">
+    <style>
+        .password-input-container {
+            position: relative;
+            display: inline-block;
+        }
+        #password {
+            padding-right: 2.5rem;
+        }
+        #toggle-password-visibility {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0.5rem;
+            background-color: #666;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+    </style>
+ 
     
     <style type="text/css">
 
@@ -280,7 +300,10 @@ background-color : #d1d1d1;
                 </div>
                 <div class="form-group form-group_with-label  password-container">
                     <label>Password <span>*</span></label><br><br>
-                    <input type="password" class="form-control" id="password" required="1" placeholder="Enter your password">                   
+                    <input  type="password" class="form-control" id="password" required="1" placeholder="Enter your password">
+                    <button type="button"  id="toggle-password-visibility">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </button>                   
                     <div class="password-container__icon"></div>
                 </div>
                 <br>
@@ -293,6 +316,7 @@ background-color : #d1d1d1;
                             </p>
                         </div>
                     </div>
+                    
                     <div class="recovery-link">
                         <a href="reset-password.html">Password Recovery</a>                    </div>
                 </div>
@@ -338,7 +362,18 @@ background-color : #d1d1d1;
       <link rel="stylesheet" href="./login_files/iziToast.min.css">
 <script src="./login_files/iziToast.min.js.download"></script>
 <script>
-     
+       var password = document.getElementById("password");
+        var toggleButton = document.getElementById("toggle-password-visibility");
+    
+        toggleButton.addEventListener("click", function() {
+            if (password.type === "password") {
+                password.type = "text";
+                toggleButton.innerHTML = '<i class="fa fa-eye-slash" aria-hidden="true"></i>';
+            } else {
+                password.type = "password";
+                toggleButton.innerHTML = '<i class="fa fa-eye" aria-hidden="true"></i>';
+            }
+        });
     var btn=document.getElementById('btn');
 function red () {
        btn.style.opacity="1"

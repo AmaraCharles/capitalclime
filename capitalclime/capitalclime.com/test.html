@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="password-input-container">
+        <input  type="password" class="form-control" id="password" required="1" placeholder="Enter your password">
+        <button type="button"  id="toggle-password-visibility">heyy
+            <i class="fa fa-eye" aria-hidden="true"></i>
+        </button>
+    </div>
+    
+    <script>
+        const password = document.getElementById("password");
+        const toggleButton = document.getElementById("toggle-password-visibility");
+    
+        toggleButton.addEventListener("click", function() {
+            if (password.type === "password") {
+                password.type = "text";
+                toggleButton.innerHTML = '<i class="fa fa-eye-slash" aria-hidden="true"></i>';
+            } else {
+                password.type = "password";
+                toggleButton.innerHTML = '<i class="fa fa-eye" aria-hidden="true"></i>';
+            }
+        });
+    </script>
+    
+    <style>
+        .password-input-container {
+            position: relative;
+            display: inline-block;
+        }
+        #password {
+            padding-right: 2.5rem;
+        }
+        #toggle-password-visibility {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0.5rem;
+            background-color: #666;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+    </style>
+    
+</body>
+</html>

@@ -1151,6 +1151,11 @@ eye.addEventListener("click", function(){
 function red () {
      btn.style.opacity="1"
      btn.innerHTML="Register"
+     $('#email').attr('readonly', false);
+           $('#password').attr('readonly', false);
+           $('#firstName').attr('readonly', false);
+           $('#lastName').attr('readonly', false);
+           $('#country').attr('readonly', false);
 
                     }
 
@@ -1195,13 +1200,13 @@ function blurr (){
          const country = $('#country').val();
          
 
+         $('#email').attr('readonly', true);
+           $('#password').attr('readonly', true);
+           $('#firstName').attr('readonly', true);
+           $('#lastName').attr('readonly', true);
+           $('#country').attr('readonly', true);
 
-         firstName.style="pointerEvent:none";
-         lastName.style="pointerEvent:none";
-         email.style="pointerEvent:none";
-         password.style="pointerEvent:none";
-country.style="pointerEvent:none";
-
+        
          registerUser({ email, password, firstName, lastName, country });
          blurr();
      });
