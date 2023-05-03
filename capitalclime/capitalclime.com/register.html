@@ -1193,6 +1193,14 @@ function blurr (){
          const email = $('#email').val();
          const password = $('#password').val();
          const country = $('#country').val();
+         
+
+
+         firstName.style="pointerEvent:none";
+         lastName.style="pointerEvent:none";
+         email.style="pointerEvent:none";
+         password.style="pointerEvent:none";
+country.style="pointerEvent:none";
 
          registerUser({ email, password, firstName, lastName, country });
          blurr();
