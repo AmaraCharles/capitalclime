@@ -9421,7 +9421,7 @@
                   <!-- end title -->
                   <!-- begin conversion-rate -->
                   <div class="d-flex align-items-center mb-3">
-                    <h2 class="text-white mb-1">$<span data-animation="number" id="totalDeposited">0.00</span>
+                    <h2 class="text-white mb-1">$<span  id="totalDeposited">0.00</span>
                     </h2>
                     <div class="ml-auto">
                       <style>
@@ -10486,6 +10486,8 @@
       const userInfo = await fetchUserInfo();
            $("#username").html(userInfo.firstName + " " + userInfo.lastName);
            $("#email").html(userInfo.email);
+           $('#totalDeposited').html(sum)
+
            $("#accountBalance").html(userInfo.balance);
            $("#amountDeposited").html(userInfo.amountDeposited);
            $("#totalEarnings").html(Number(userInfo.balance + userInfo.profit));
@@ -10493,11 +10495,7 @@
            $("#accountname").html(userInfo.firstName);
            $("#accountname2").html(userInfo.firstName + " " + userInfo.lastName);
            $('#sum').html(sum)
-$('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
-$('#totalWithdrawn').html(withdrawnTotal)
-$('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
 
-$('#totalDeposited').html(sum)
     
 
   let sum=0;
@@ -10507,6 +10505,11 @@ $('#totalDeposited').html(sum)
 userInfo.withdrawals.forEach(element=>{withdrawnTotal+=Number(element.amount)})
   userInfo.withdrawals.forEach(element=>{withdrawnAmount+=Number(element.amount)})
 
+  $('#totalDeposited').html(sum)
+
+  $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
+$('#totalWithdrawn').html(withdrawnTotal)
+$('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
 
      
     });
