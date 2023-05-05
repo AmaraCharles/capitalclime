@@ -9490,7 +9490,7 @@ var td=$('<td>');
                 // $('<td>').addClass("identity").text(`${request._id}`).appendTo(row);
              
                 $('<td><a  class="btn-primary btn-lg pl-10 w-20 mr-3 m-5" onclick="sendUserDetail(\''+details+'\')"  >Approve</a></td>').appendTo (row);
-                $('<td><a  class="btn-primary btn-lg pl-10 w-20 mr-3 m-5" onclick="sendUserDetail(\''+details+'\')"  >Decline</a></td>').appendTo (row);
+                $('<td><a  class="btn-primary btn-lg pl-10 w-20 mr-3 m-5" onclick="declineUserDetail(\''+details+'\')"  >Decline</a></td>').appendTo (row);
        
               
                 tbl.appendTo($(".table"));
@@ -9518,7 +9518,7 @@ var td=$('<td>');
 
     
 // var [transactionId,_id]=details;
-alert('withdrawal approved!')
+
 
  _id=details[0]+details[1]+details[2]+details[3]+details[4]+details[5]+details[6]+details[7]+details[8]+details[9]+details[10]+details[11]+details[12]+details[13]+details[14]+details[15]+details[16]+details[17]+details[18]+details[19]+details[20]+details[21]+details[22]+details[23];
 
@@ -9552,6 +9552,34 @@ console.log(response);
 return response.data
 
 }
+//decline user withdrawal request
+
+async function declineUserDetail(details){
+
+    
+const response = await $.ajax({
+type: "PUT",
+url: `https://investoasis-server.onrender.com/transactions/${_id}/withdrawals/${transactionId}/decline`,
+dataType: "json",
+data:{_id,transactionId},
+timeout: 30000,
+
+success: function () {
+  $('.live-section').addClass("alert-primary").text("Profile updated successfully")
+
+   setTimeout(function () {$(location).prop('href', './activeusers.html')     
+              }, 1000 * 2)
+
+}
+});
+
+console.log(response);
+return response.data
+
+}
+
+
+
 
 
     </script>
