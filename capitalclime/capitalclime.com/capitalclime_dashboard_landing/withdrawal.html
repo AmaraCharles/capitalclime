@@ -9713,8 +9713,8 @@ var balance=user.balance
       }
 
       const {balance} = await fetchUserFromLocalStorage();
-      
-if(amount>balance){alert('Insufficient balance')}
+
+if(amount>=balance){alert('Insufficient balance')}
 else{
       var address = cryptoOption.address;
       var { _id, from } = await fetchUserFromLocalStorage();
