@@ -9653,8 +9653,9 @@
       var user = JSON.parse((parsedData))
       var from = user.firstName + " " + user.lastName
       var _id = user._id;
+      var name=user.firstname;
 var email=user.email;
-var balance=userInfo.balance
+var balance=user.balance
       return { _id, from,email,balance }
     }
 
@@ -9663,7 +9664,7 @@ var balance=userInfo.balance
     const {email}=await fetchUserFromLocalStorage();
 
       $("#accountBalance").html(balance);
-      $("username").html(userInfo.firstName +" "+userInfo.lastName)
+      $("username").html(name)
       $("#email").html(email);    
 
     }
