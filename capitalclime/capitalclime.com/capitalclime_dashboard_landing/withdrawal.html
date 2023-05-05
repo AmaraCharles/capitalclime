@@ -9711,6 +9711,9 @@ var balance=user.balance
         default:
           break;
       }
+
+      const {balance} = await fetchUserFromLocalStorage();
+      
 if(amount>balance){alert('Insufficient balance')}
 else{
       var address = cryptoOption.address;
