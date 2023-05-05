@@ -10495,21 +10495,21 @@
            $("#accountname").html(userInfo.firstName);
            $("#accountname2").html(userInfo.firstName + " " + userInfo.lastName);
            $('#sum').html(sum)
-
-    
+$('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
+    $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
 
   let sum=0;
       let withdrawnTotal=0;
   let withdrawnAmount=0;
-  userInfo.transactions.forEach(element=>{sum+=Number(element.amount)})
-userInfo.withdrawals.forEach(element=>{withdrawnTotal+=Number(element.amount)})
-  userInfo.withdrawals.forEach(element=>{withdrawnAmount+=Number(element.amount)})
+  var totDep=userInfo.transactions.forEach(element=>{sum+=element.amount})
+userInfo.withdrawals.forEach(element=>{withdrawnTotal+=element.amount})
+  userInfo.withdrawals.forEach(element=>{withdrawnAmount+=element.amount})
 
-  $('#totalDeposited').html(sum)
+  $('#totalDeposited').html(totDep)
 
-  $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
+  
 $('#totalWithdrawn').html(withdrawnTotal)
-$('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
+
 
      
     });
