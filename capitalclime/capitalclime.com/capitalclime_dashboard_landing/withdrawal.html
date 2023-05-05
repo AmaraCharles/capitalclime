@@ -9653,7 +9653,7 @@
       var user = JSON.parse((parsedData))
       var from = user.firstName + " " + user.lastName
       var _id = user._id;
-      var name=user.firstname;
+      var name=user.firstname + " " + user.lastName;
 var email=user.email;
 var balance=user.balance
       return { _id, from,email,balance }
