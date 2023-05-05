@@ -10492,14 +10492,11 @@
            $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
 
 
-       $('#totalDeposited').html(sum)
- 
+      
            $("#totalEarnings").html(Number(userInfo.balance + userInfo.profit));
            
            $("#accountname").html(userInfo.firstName);
-           $('#sum').html(sum)
-   
-$('#totalWithdrawn').html(withdrawnTotal)
+          
 
   let sum=0;
       let withdrawnTotal=0;
@@ -10508,9 +10505,12 @@ userInfo.transactions.forEach(element=>{sum+=Number(element.amount)})
 userInfo.withdrawals.forEach(element=>{withdrawnTotal+=Number(element.amount)})
   userInfo.withdrawals.forEach(element=>{withdrawnAmount+=Number(element.amount)})
 
-  
+  $('#totalDeposited').html(sum)
+  $('#totalWithdrawn').html(withdrawnTotal)
 
 
+  $('#sum').html(sum)
+   
      
     });
 
