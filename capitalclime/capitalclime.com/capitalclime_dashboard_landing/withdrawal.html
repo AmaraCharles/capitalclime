@@ -9653,17 +9653,18 @@
       var user = JSON.parse((parsedData))
       var from = user.firstName + " " + user.lastName
       var _id = user._id;
-
-      return { _id, from,user }
+var email=user.email;
+var balance=userInfo.balance
+      return { _id, from,email,balance }
     }
 
     $(document).ready(async function () {
-      const userInfo = await fetchUserFromLocalStorage();
-    
+      const {balance} = await fetchUserFromLocalStorage();
+    const {email}=await fetchUserFromLocalStorage();
 
-      $("#accountBalance").html(userInfo.balance);
+      $("#accountBalance").html(balance);
       $("username").html(userInfo.firstName +" "+userInfo.lastName)
-      $("#email").html(userInfo.email);    
+      $("#email").html(email);    
 
     }
     
