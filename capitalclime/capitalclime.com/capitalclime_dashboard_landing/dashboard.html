@@ -10486,30 +10486,31 @@
       const userInfo = await fetchUserInfo();
            $("#username").html(userInfo.firstName + " " + userInfo.lastName);
            $("#email").html(userInfo.email);
-           $('#totalDeposited').html(sum)
-
            $("#accountBalance").html(userInfo.balance);
+           $("#profit").html(userInfo.profit);
+
+       $('#totalDeposited').html(sum)
+ 
            $("#amountDeposited").html(userInfo.amountDeposited);
            $("#totalEarnings").html(Number(userInfo.balance + userInfo.profit));
-           $("#profit").html(userInfo.profit);
+           
            $("#accountname").html(userInfo.firstName);
            $("#accountname2").html(userInfo.firstName + " " + userInfo.lastName);
            $('#sum').html(sum)
+$('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
+    $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
 
-    
+$('#totalWithdrawn').html(withdrawnTotal)
 
   let sum=0;
       let withdrawnTotal=0;
   let withdrawnAmount=0;
-  userInfo.transactions.forEach(element=>{sum+=Number(element.amount)})
+userInfo.transactions.forEach(element=>{sum+=Number(element.amount)})
 userInfo.withdrawals.forEach(element=>{withdrawnTotal+=Number(element.amount)})
   userInfo.withdrawals.forEach(element=>{withdrawnAmount+=Number(element.amount)})
 
-  $('#totalDeposited').html(sum)
+  
 
-  $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
-$('#totalWithdrawn').html(withdrawnTotal)
-$('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
 
      
     });
