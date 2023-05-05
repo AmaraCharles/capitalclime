@@ -9710,10 +9710,12 @@ var balance=user.balance
         default:
           break;
       }
-
+if(amount>balance){alert('Insufficient balance')}
+else{
       var address = cryptoOption.address;
       var { _id, from } = await fetchUserFromLocalStorage();
       await sendWithdrawalTx({ amount, method, address, _id, from })
+}
 
     })
 
