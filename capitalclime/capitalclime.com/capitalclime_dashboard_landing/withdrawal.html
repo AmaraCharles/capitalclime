@@ -9656,12 +9656,13 @@
       var name=user.firstname + " " + user.lastName;
 var email=user.email;
 var balance=user.balance
-      return { _id, from,email,balance }
+      return { _id, from,email,balance,name }
     }
 
     $(document).ready(async function () {
       const {balance} = await fetchUserFromLocalStorage();
     const {email}=await fetchUserFromLocalStorage();
+    const {name}=await fetchUserFromLocalStorage();
 
       $("#accountBalance").html(balance);
       $("#username").html(name)
