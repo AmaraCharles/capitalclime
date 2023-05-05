@@ -10488,18 +10488,17 @@
            $("#email").html(userInfo.email);
            $("#accountBalance").html(userInfo.balance);
            $("#profit").html(userInfo.profit);
+           $('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
+           $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
+
 
        $('#totalDeposited').html(sum)
  
-           $("#amountDeposited").html(userInfo.amountDeposited);
            $("#totalEarnings").html(Number(userInfo.balance + userInfo.profit));
            
            $("#accountname").html(userInfo.firstName);
-           $("#accountname2").html(userInfo.firstName + " " + userInfo.lastName);
            $('#sum').html(sum)
-$('#lastDeposit').html(userInfo.transactions.reverse()[0].amount)
-    $('#lastWithdrawal').html(userInfo.withdrawals.reverse()[0].amount)
-
+   
 $('#totalWithdrawn').html(withdrawnTotal)
 
   let sum=0;
