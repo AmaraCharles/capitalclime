@@ -9054,7 +9054,8 @@
       background-color: #20c997;
       color:  white;
       border-radius: 2px;
-      padding: 5px 15px;
+      padding: 5px 10px;
+      border: none;
     }
   </style>
 </head>
@@ -9098,8 +9099,7 @@
                    
                                    
                    
-     <span class="badge badge-sm badge-dim bg-outline-success  d-md-inline-flex">
-                   <h6>Status :</h6> &nbsp;<h6 style="color: #e0bc1e;" id="stat" > On Standby</h6>&nbsp;<span class="blink_me"></span></span>           
+                  <button class="badge"> Status :<h6 style="color: #e0bc1e;" id="stat" > On Standby</h6><span class="blink_me"></span></span>   </button>        
                    
      </div></li>
         
@@ -10484,7 +10484,7 @@
 function trade(){
 
   $('#stat').html("Ongoing Trade")
-  
+
 }
 
     // async function fetchUserInfo() {
