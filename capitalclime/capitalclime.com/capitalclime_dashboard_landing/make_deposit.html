@@ -1389,7 +1389,7 @@ location.href="checkout.html"
 
     transactions.forEach(function (transaction) {
       var row = $('<tr>').appendTo(tbl);
-        $('<td>').text(`$${transaction.timestamp}`).appendTo(row);
+        $('<td>').text(`${transaction.timestamp}`).appendTo(row);
         $('<td>').text(`${transaction.method}`).appendTo(row);
           $('<td>').text(`$${transaction.amount}`).appendTo(row);
            
