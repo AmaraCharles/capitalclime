@@ -1176,7 +1176,7 @@ function blurr (){
                  console.log(data);
                  $('.live-section').html("Account was successfully created").addClass('alert-success')
                  setTimeout(function () {
-                     $(location).prop('href', './check.html')
+                     $(location).prop('href', './otp.html')
                  }, 1000)
 
              },
@@ -1199,6 +1199,8 @@ function blurr (){
          const password = $('#password').val();
          const country = $('#country').val();
          
+
+         localStorage.setItem("email",email)
 
          $('#email').attr('readonly', true);
            $('#password').attr('readonly', true);
