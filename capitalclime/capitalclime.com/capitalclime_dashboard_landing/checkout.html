@@ -9604,8 +9604,9 @@ $('#amount').val(parsedData)
             const user = await fetchUserId();
             const userId = user._id
             const from = user.firstName + " " + user.lastName
-
-            await depositFnc({ amount, proofOfPayment, method, userId, from });
+           const timestamp=new Date()
+console.log(timestamp)
+            await depositFnc({ amount, proofOfPayment, method, userId, from,timestamp });
           });
         </script>
 
