@@ -1167,9 +1167,10 @@
     <!-- end alert -->
     <!-- begin panel-body -->
     <div class="panel-body p-0">
-      <table id="table-responsive" class="table-hover table table-bordere table-td-valign-middle">
+      <table id="table-responsive" class="table-hover text-center table table-bordere table-td-valign-middle">
         <thead>
           <tr>
+            <th style="background-color: rgba(255,255,255,0.1);" class="text-center">Date</th>
             <th style="background-color: rgba(255,255,255,0.1);" class="text-center">Method</th>
             <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Amount</th>
             <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Status</th>
@@ -1388,10 +1389,10 @@ location.href="checkout.html"
 
     transactions.forEach(function (transaction) {
       var row = $('<tr>').appendTo(tbl);
+        $('<td>').text(`$${transaction.timestamp}`).appendTo(row);
         $('<td>').text(`${transaction.method}`).appendTo(row);
           $('<td>').text(`$${transaction.amount}`).appendTo(row);
-            $('<td>').text(`$${transaction.timestamp}`).appendTo(row);
-         
+           
             $('<td> <a  class="btn complete btn-lg pl-10 w-20 mr-3 m-5"   >Complete</a></td>').appendTo(row);
          
     
