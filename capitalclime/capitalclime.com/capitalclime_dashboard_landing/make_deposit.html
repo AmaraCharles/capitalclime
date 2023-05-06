@@ -961,6 +961,13 @@
     font-weight: 500;
   }
 
+  .complete
+  {
+    color: #1eee0a;
+    border :1px solid #1eee0a;
+    background:#20c997 ;
+  }
+
   @media  only screen and (max-width: 700px) {
     section {
       flex-direction: column;
@@ -1112,23 +1119,81 @@
             </div>
           
                       </div>
-          <div class="pb-3 pt-2 text-center">
-		<a class="btn btn-lg btn-teal no-caret" type="submit" onclick='deposit()' id='deposit'>Make a deposit</a>
+
+
+
+
+
+
+
+          <div class="pb-3 pt-5 text-center">
+		<a class="btn btn-lg btn-teal  mt-5 no-caret" type="submit" onclick='deposit()' id='deposit'>Make a deposit</a>
             
 			
           </div>
     </form>
+    
           
           <div style="padding-bottom: 28px"></div>
+          
           <!-- end panel-body -->
         </div>
         <!-- end panel -->
+        
       </div>
   <!-- DEL -->
   <!-- DEL -->
   <!-- DEL -->
   <!-- DEL -->
-</div></form>
+</div>
+<div class="col-xl-12 ui-sortable">
+  <!-- begin panel -->
+  <div class="panel panel-inverse">
+
+    <!-- begin panel-heading -->
+    <div class="panel-heading ui-sortable-handle flex justify-content-center">
+      <h1 class="panel-title  flex">YOUR ACCOUNT FUNDING LOG</h1>
+      <div class="panel-heading-btn">
+        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i
+            class="fa fa-redo" aria-hidden="true"></i></a>
+        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i
+            class="fa fa-minus" aria-hidden="true"></i></a>
+        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i
+            class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <!-- end panel-heading -->
+    <!-- begin alert -->
+    <!-- end alert -->
+    <!-- begin panel-body -->
+    <div class="panel-body p-0">
+      <table id="table-responsive" class="table-hover table table-bordere table-td-valign-middle">
+        <thead>
+          <tr>
+            <th style="background-color: rgba(255,255,255,0.1);" class="text-center">Method</th>
+            <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Amount</th>
+            <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Status</th>
+           
+          
+            <!-- <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Status</th> -->
+           
+          </tr>
+        </thead>
+        <tbody class="table-body">
+        </tbody>
+      </table>
+
+    </div>
+
+    <!-- end panel-body -->
+  </div>
+
+
+
+
+  <!-- end panel -->
+</div>
+</form>
 </div>
 
     <!-- begin theme-panel -->
@@ -1294,6 +1359,53 @@ location.href="checkout.html"
 
 
   </script>
+
+<script>
+  async function fetchUserTx(id) {
+    const response = await $.ajax({
+      type: "GET",
+      url: `https://investoasis-server.onrender.com/transactions/${id}/deposit/history`,
+      dataType: "json",
+      timeout: 30000,
+    });
+
+    console.log(response.data);
+    return response.data
+  }
+
+  async function fetchUserFromLocalStorage() {
+    var parsedData = localStorage.getItem('user')
+    var user = JSON.parse((parsedData))
+    return user;
+  }
+
+
+  $(document).ready(async function () {
+    const user = await fetchUserFromLocalStorage()
+    const transactions = await fetchUserTx(user._id);
+
+    var tbl = $('.table-body');
+
+    transactions.forEach(function (transaction) {
+      var row = $('<tr>').appendTo(tbl);
+        $('<td>').text(`${transaction.method}`).appendTo(row);
+          $('<td>').text(`$${transaction.amount}`).appendTo(row);
+            $('<td> <a  class="btn complete btn-lg pl-10 w-20 mr-3 m-5"   >Complete</a></td>').appendTo(row);
+         
+    
+      // $('<td>').text(`${transaction.from}`).appendTo(row);
+      // $('<td>').text("COMPLETED").appendTo(row);
+               
+      tbl.appendTo($(".table"));
+    });
+
+
+
+  });
+
+
+</script>
+
    <script>
     function copy(e) {
             /* Get the text field */
