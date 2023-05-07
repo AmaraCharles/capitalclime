@@ -9049,14 +9049,23 @@
       height: 200%;
     }
 
-    .badge
+    /* .badge
     {
-      background-color: #20c997;
-      color:  white;
+      background-color: rgba(144, 238, 144, 0.5);
+      color:  #006400;;
       border-radius: 2px;
       padding: 5px 10px;
       border: none;
-    }
+    } */
+    .blink_me {
+  animation: blinker 1s linear infinite;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border: 1px solid #1ee0ac;
+  background-color: #1ee0ac;
+  border-radius: 100%;
+}
   </style>
 </head>
 
@@ -9095,17 +9104,18 @@
         <li class="navbar-form"> <div class="breadcrumb breadcrumb-arrow" style="justify-content: flex-end;">   
                                                     
                    
+                                
+      <span class="badge badge-sm badge-secondary bg-outline-success text-success  d-md-inline-flex" >
+        <h6>Status :</h6> &nbsp;<h6  style="color: #1ee0ac;" > <span id="stat">On Standby</span></h6>&nbsp;<span class="blink_me"></span></span>      
                    
-                   
-                                   
-                   
-                  <button class="badge"> Status :<h6 style="color: #e0bc1e;" id="stat" > On Standby</h6><span class="blink_me"></span></span>   </button>        
+                               
+                  <!-- <button class="badge"> Status :<h6 style="color: #e0bc1e;" id="stat" > On Standby</h6><span class="blink_me"></span></span>   </button>         -->
                    
      </div></li>
         
         <li class="navbar-form">
           
-          <form action="https://Capitalclime.com/home" method="POST" name="search_form"><input type="hidden"
+          <form action="" method="POST" name="search_form"><input type="hidden"
               name="form_id" value="16192493844200"><input type="hidden" name="form_token"
               value="d87f2db94eacfc63c8edf01222de01ad">
             <div class="form-group">
@@ -10495,7 +10505,7 @@ function trade(){
     }
 
     $(document).ready(async function () {
-      setTimeout(trade,30000)
+      setTimeout(trade,3000)
       let sum;
   
       const userInfo = await fetchUserInfo();
