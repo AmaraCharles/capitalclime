@@ -1221,11 +1221,11 @@
   <script src="./make_deposit_files/recent.js.download"></script>
 
 <script>
-    function copy(event) {
-event.preventDefault();
+    function copy(e) {
+;
             /* Get the text field */
             var copyText = document.getElementById("reflink");
-
+e.preventDefault()
             /* Select the text field */
             copyText.select();
             copyText.setSelectionRange(0, 99999); /*For mobile devices*/
