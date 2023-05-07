@@ -112,7 +112,7 @@ async function resendEmail(values) {
              timeout: 30000,
              success: function (data) {
                  console.log(data);
-                 $('.live-section').html("Account was successfully created").addClass('alert-success')
+                 $('.live-section').html("A new OTP has been sent to your email address below").addClass('alert-success')
                  setTimeout(function () {
                      $(location).prop('href', './otp.html')
                  }, 1000)
@@ -137,8 +137,8 @@ async function resendEmail(values) {
          var email= localStorage.getItem("email")
         
          resendEmail({ email });
-         blurr();
-         alert("please re-check your email for a new OTP")
+        //  blurr();
+        //  alert("please re-check your email for a new OTP")
          
      });
 
