@@ -1015,8 +1015,8 @@
                     <p class="mb-1">CANCEL AT ANY TIME</p>
                     <div class="input-group p-10">
                       <input id="reflink" type="text" class="form-control" value="bc1q528srxdaj38rvngw9qtrt86ajtuaj0aatl6v56" readonly="">
-                      <span style="cursor: pointer;"  class="input-group-append">
-                        <button onclick="copy()" class="btn btn-inverse">
+                      <span style="cursor: pointer;" onclick="copy()"  class="input-group-append">
+                        <button class="btn btn-inverse">
                           <i class="far fa-clone" aria-hidden="true"></i>
                         </button> </span>
                     </div><br>
@@ -1220,24 +1220,7 @@
   <script src="./make_deposit_files/script36e.js.download"></script>
   <script src="./make_deposit_files/recent.js.download"></script>
 
-<script>
-    function copy(e) {
-;
-            /* Get the text field */
-            var copyText = document.getElementById("reflink");
-e.preventDefault()
-            /* Select the text field */
-            copyText.select();
-            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 
-            /* Copy the text inside the text field */
-            document.execCommand("copy");
-
-            /* Alert the copied text */
-            alert("Copied: " + copyText.value);
-        }
-
-  </script>
 
   <script>
     (function() {
@@ -1427,7 +1410,25 @@ location.href="checkout.html"
 </script>
 
    
- 
+ <script>
+    function copy(e) {
+e.preventDefault()
+;
+            /* Get the text field */
+            var copyText = document.getElementById("reflink");
+
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+
+            /* Alert the copied text */
+            alert("Copied: " + copyText.value);
+        }
+
+  </script>
 
   
   <script>
