@@ -1063,6 +1063,12 @@ background-color : #d1d1d1;
                 </div>
                     <br><span id="StrengthDisp" class="badge displayBadge form -control"></span>
                     <div class="password-container__icon"></div>
+                    <div class="form-group form-group_with-label  password-container">
+                        <label><input type="checkbox" onclick="myFunction()">Show Password<span></span></label><br><br>
+                                       
+                        <div class="password-container__icon"></div>
+                    </div>
+                   
                 
                 <div class="form-group form-group_with-label  password-container">
                     <label for="password"><small><i>Strong Password must contain atleast one uppercase letter,one lowercase letter,one number,any special character (#_!$) and must be atleast 8 characters in length</i></small><span></span></label><br><br>
@@ -1074,10 +1080,15 @@ background-color : #d1d1d1;
                 
                 <div class="form-group form-group_with-label  password-container">
                     <label for="password">Confirm Password <span>*</span></label><br><br>
-                    <input type="password" id="" class="form-control" required="1" placeholder="Enter your password">                 
+                    <input type="password" id="confirmpass" class="form-control" required="1" placeholder="Enter your password">                 
                     <div class="password-container__icon"></div>
                 </div>
-                
+                <div class="form-group form-group_with-label  password-container">
+                    <label><input type="checkbox" onclick="myFunctionn()">Show Password<span></span></label><br><br>
+                                   
+                    <div class="password-container__icon"></div>
+                </div>
+              
                 
                 <br>
                 <div class="form-bottom rules form-bottom_2-col">
@@ -1158,6 +1169,24 @@ function red () {
            $('#country').attr('readonly', false);
 
                     }
+//scroll to top on submit
+                  
+// When the user scrolls down 20px from the top of the document, show the button
+// window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     btn.style.display = "block";
+//   } else {
+//     // btn.style.display = "none";
+//   }
+// }
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 function blurr (){
  
@@ -1165,6 +1194,25 @@ function blurr (){
  btn.innerHTML= "Loading . . ."
 
 }
+
+function myFunction() {
+  var x = password;
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
+function myFunctionn() {
+  var x =document.getElementById("confirmpass");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
      async function registerUser(values) {
          await $.ajax({
              type: "POST",
@@ -1211,6 +1259,7 @@ function blurr (){
         
          registerUser({ email, password, firstName, lastName, country });
          blurr();
+         topFunction();
      });
 
  </script>
