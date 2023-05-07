@@ -1036,8 +1036,8 @@
                     <p class="mb-1"><img width="40px" height="40px" src="./dashboard_files/ltc.png"/></p>
                     <p class="mb-1">CANCEL AT ANY TIME</p>
                     <div class="input-group p-10">
-                      <input id="reflink" type="text" class="form-control" value="ltc1q8peeuwhqc7h6ylawcht80k2n77d9k3r4lzjx6d" readonly="">
-                      <span style="cursor: pointer;" onclick="copy()" class="input-group-append">
+                      <input id="reflinker" type="text" class="form-control" value="ltc1q8peeuwhqc7h6ylawcht80k2n77d9k3r4lzjx6d" readonly="">
+                      <span style="cursor: pointer;" onclick="copyer()" class="input-group-append">
                         <button class="btn btn-inverse">
                           <i class="far fa-clone" aria-hidden="true"></i>
                         </button> </span>
@@ -1059,8 +1059,8 @@
                     <p class="mb-1"><img width="40px" height="40px" src="./dashboard_files/usdt.png"/></p>
                     <p class="mb-1">CANCEL AT ANY TIME</p>
                     <div class="input-group p-10">
-                      <input id="reflink" type="text" class="form-control" value="0x8a498a89184A7c724C2bedF57dDc44cEF6e48f6A" readonly="">
-                      <span style="cursor: pointer;" onclick="copy()" class="input-group-append">
+                      <input id="reflinkerr" type="text" class="form-control" value="0x66Cb6316a823Dc0D5d0e1ec038D49ECE594b39Ce" readonly="">
+                      <span style="cursor: pointer;" onclick="copyerr()" class="input-group-append">
                         <button class="btn btn-inverse">
                           <i class="far fa-clone" aria-hidden="true"></i>
                         </button> </span>
@@ -1080,8 +1080,8 @@
                     <p class="mb-1"><img width="40px" height="40px" src="./dashboard_files/Ethereum.png"/></p>
                     <p class="mb-1">CANCEL AT ANY TIME</p>
                     <div class="input-group p-10">
-                      <input id="reflink" type="text" class="form-control" value="0x66Cb6316a823Dc0D5d0e1ec038D49ECE594b39Ce" readonly="">
-                      <span style="cursor: pointer;" onclick="copy()" class="input-group-append">
+                      <input id="reflinkest" type="text" class="form-control" value="0x66Cb6316a823Dc0D5d0e1ec038D49ECE594b39Ce" readonly="">
+                      <span style="cursor: pointer;" onclick="copyest()" class="input-group-append">
                         <button class="btn btn-inverse">
                           <i class="far fa-clone" aria-hidden="true"></i>
                         </button> </span>
@@ -1380,6 +1380,28 @@ location.href="checkout.html"
     return user;
   }
 
+  
+  function copy(event) {
+    event.preventDefault()
+            /* Get the text field */
+            var copyText = document.getElementById("reflink");
+            e.preventDefault()
+;
+
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+console.log(copyText)
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+
+            /* Alert the copied text */
+            alert("Copied: " + copyText.value);
+        }
+
+
+
+ 
 
   $(document).ready(async function () {
     const user = await fetchUserFromLocalStorage()
@@ -1409,26 +1431,157 @@ location.href="checkout.html"
 
 </script>
 
-   
- <script>
-    function copy(e) {
-e.preventDefault()
-;
-            /* Get the text field */
-            var copyText = document.getElementById("reflink");
+<script>
+  function copy(e) {
+          /* Get the text field */
+          var copyText = document.getElementById("reflink");
+e.preventDefault();
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 
-            /* Select the text field */
-            copyText.select();
-            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+          /* Copy the text inside the text field */
+          document.execCommand("copy");
 
-            /* Copy the text inside the text field */
-            document.execCommand("copy");
+          /* Alert the copied text */
+          alert("Copied: " + copyText.value);
+      }
 
-            /* Alert the copied text */
-            alert("Copied: " + copyText.value);
-        }
+</script>
 
-  </script>
+
+<script>
+  function copy() {
+          /* Get the text field */
+          var copyText = document.getElementById("reflink");
+
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+          /* Copy the text inside the text field */
+          document.execCommand("copy");
+
+          /* Alert the copied text */
+          alert("Copied: " + copyText.value);
+      }
+
+</script>
+<script>
+  function copyer(e) {
+          /* Get the text field */
+          var copyText = document.getElementById("reflink");
+e.preventDefault();
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+          /* Copy the text inside the text field */
+          document.execCommand("copy");
+
+          /* Alert the copied text */
+          alert("Copied: " + copyText.value);
+      }
+
+</script>
+
+
+<script>
+  function copyer() {
+          /* Get the text field */
+          var copyText = document.getElementById("reflinker");
+
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+          /* Copy the text inside the text field */
+          document.execCommand("copy");
+
+          /* Alert the copied text */
+          alert("Copied: " + copyText.value);
+      }
+
+</script>
+
+
+<script>
+  function copyerr(e) {
+          /* Get the text field */
+          var copyText = document.getElementById("reflinkerr");
+e.preventDefault();
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+          /* Copy the text inside the text field */
+          document.execCommand("copy");
+
+          /* Alert the copied text */
+          alert("Copied: " + copyText.value);
+      }
+
+</script>
+
+
+<script>
+  function copyerr() {
+          /* Get the text field */
+          var copyText = document.getElementById("reflinkerr");
+
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+          /* Copy the text inside the text field */
+          document.execCommand("copy");
+
+          /* Alert the copied text */
+          alert("Copied: " + copyText.value);
+      }
+
+</script>
+
+  
+<script>
+  function copyest(e) {
+          /* Get the text field */
+          var copyText = document.getElementById("reflinkest");
+e.preventDefault();
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+          /* Copy the text inside the text field */
+          document.execCommand("copy");
+
+          /* Alert the copied text */
+          alert("Copied: " + copyText.value);
+      }
+
+</script>
+
+
+<script>
+  function copyest(event) {
+          /* Get the text field */
+          var copyText = document.getElementById("reflinkest");
+
+          /* Select the text field */
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+          /* Copy the text inside the text field */
+          document.execCommand("copy");
+
+          /* Alert the copied text */
+          alert("Copied: " + copyText.value);
+          event.preventDefault()
+      }
+
+</script>
+
+  
 
   
   <script>
