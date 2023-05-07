@@ -41,6 +41,7 @@
       <div class="col-11 col-sm-9 col-md-7 col-lg-5 col-xl-4 m-auto text-center py-5">
         <div class="logo text-center mb-2"> <a href="https://harnishdesign.net/demo/html/oxyy/index.html" title="Oxyy"><img src="./logo.png" alt="Oxyy"></a> </div>
         <h4 class="mb-4 mt-3"> Verification</h4>
+        <div class="live-section"></div>
         <p class="text-center"><img class="img-fluid" src="./otp_files/otp-icon.png" alt="verification"></p>
         <p class="text-muted mb-4">Enter the verification code we sent to <br>
           <span class="text-dark text-4" id="emfield"></span></p>
@@ -58,7 +59,7 @@
 			<button class="btn btn-primary shadow-none" id="verifyBtn" type="submit" onclick="verify()">Verify</button>
 		  </div>
         </form>
-        <p class="text-center text-muted mb-0">Didn't get the code? <a>Resend it</a></p>
+        <p class="text-center text-muted mb-0">Didn't get the code? <a id="again" href="#">Resend it</a></p>
       </div>
     </div>
   </div>
@@ -68,24 +69,6 @@
 </div>
 
 <!-- Styles Switcher -->
-<div id="styles-switcher" class="left">
-  <h5>Color Switcher</h5>
-  <hr>
-  <ul class="mb-0">
-    <li class="blue" data-bs-toggle="tooltip" title="" data-path="#" data-bs-original-title="Blue" aria-label="Blue"></li>
-    <li class="indigo" data-bs-toggle="tooltip" title="" data-path="css/color-indigo.css" data-bs-original-title="Indigo" aria-label="Indigo"></li>
-    <li class="purple" data-bs-toggle="tooltip" title="" data-path="css/color-purple.css" data-bs-original-title="Purple" aria-label="Purple"></li>
-    <li class="pink" data-bs-toggle="tooltip" title="" data-path="css/color-pink.css" data-bs-original-title="Pink" aria-label="Pink"></li>
-    <li class="red" data-bs-toggle="tooltip" title="" data-path="css/color-red.css" data-bs-original-title="Red" aria-label="Red"></li>
-    <li class="orange" data-bs-toggle="tooltip" title="" data-path="css/color-orange.css" data-bs-original-title="Orange" aria-label="Orange"></li>
-    <li class="yellow" data-bs-toggle="tooltip" title="" data-path="css/color-yellow.css" data-bs-original-title="Yellow" aria-label="Yellow"></li>
-    <li class="teal" data-bs-toggle="tooltip" title="" data-path="css/color-teal.css" data-bs-original-title="Teal" aria-label="Teal"></li>
-    <li class="green" data-bs-toggle="tooltip" title="" data-path="css/color-green.css" data-bs-original-title="Green" aria-label="Green"></li>
-    <li class="cyan" data-bs-toggle="tooltip" title="" data-path="css/color-cyan.css" data-bs-original-title="Cyan" aria-label="Cyan"></li>
-    <li class="brown" data-bs-toggle="tooltip" title="" data-path="css/color-brown.css" data-bs-original-title="Brown" aria-label="Brown"></li>
-  </ul>
-  <button class="btn switcher-toggle"><i class="fas fa-cog"></i></button>
-</div>
 <!-- Styles Switcher End --> 
 
 <!-- Script --> 
@@ -116,6 +99,48 @@ emfield.innerHTML=em;
   
 
  
+</script>
+
+<script>
+
+async function resendEmail(values) {
+         await $.ajax({
+             type: "POST",
+             url: "https://investoasis-server.onrender.com/auth/register/resend",
+             dataType: "json",
+             data: { ...values },
+             timeout: 30000,
+             success: function (data) {
+                 console.log(data);
+                 $('.live-section').html("Account was successfully created").addClass('alert-success')
+                 setTimeout(function () {
+                     $(location).prop('href', './otp.html')
+                 }, 1000)
+
+             },
+             error: function (xhr, status, error) {
+                 red();
+            
+                 console.log(error);
+                 $('.live-section').html("User already exists").addClass('alert-danger')
+             }
+         });
+
+     }
+
+
+     $('#again').click(function (e) {
+         e.preventDefault(); // prevents page reload
+         
+
+       
+         var email= localStorage.getItem("email")
+        
+         resendEmail({ email });
+         blurr();
+         
+     });
+
 </script>
 <script src="./otp_files/jquery.min.js.download"></script> 
 <script src="./otp_files/bootstrap.bundle.min.js.download"></script> 
