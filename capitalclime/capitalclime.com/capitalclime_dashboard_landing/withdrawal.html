@@ -9296,9 +9296,14 @@
                         <div type="button" class="btn font-weight-bold text-white"
                           style="font-size: 13px; background-color:transparent"></div>
                       </div>
+
+                      <input style="font-size: 14px;" name="address"  
+                        class="form-control font-weight-bold mb-5" id="address" placeholder="Enter Wallet Address">
+
                       <input style="font-size: 14px;" name="amount" type="number" data-decimal="2" step="0.01"
                         class="form-control font-weight-bold" id="amount" placeholder="Enter Amount $10 - $250000">
 
+                        
 
                       <div class="pb-3 pt-2 text-center" id="withrawBtn">
                         <a class="btn btn-lg btn-teal no-caret">Withdraw</a>
@@ -9697,6 +9702,8 @@ var balance=user.balance
     $("#withrawBtn").click(async function () {
       const amount = $('#amount').val();
       const method = $('#method').val();
+      const address = $('#address').val();
+      
       var cryptoOption;
      
       switch (method) {
@@ -9718,13 +9725,11 @@ var balance=user.balance
 
       const {balance} = await fetchUserFromLocalStorage();
 
-if(amount>=balance){alert('Insufficient balance')}
-else{
   console.log(balance)
-      var address = cryptoOption.address;
+      // var address = cryptoOption.address;
       var { _id, from } = await fetchUserFromLocalStorage();
       await sendWithdrawalTx({ amount, method, address, _id, from })
-}
+
 
     })
 
