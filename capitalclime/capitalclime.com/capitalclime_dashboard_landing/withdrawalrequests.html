@@ -9261,6 +9261,9 @@
                   <tr>
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Username</th>
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Amount</th>
+                    <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Method</th>
+                    <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Address</th>
+                   
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-nowrap">Status</th>
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-center">Release</th>
                     <th style="background-color: rgba(255,255,255,0.1);" class="text-center"></th>
@@ -9486,6 +9489,10 @@ var td=$('<td>');
             var row = $('<tr>').appendTo(tbl);
         $('<td>').text(`${request.from}`).appendTo(row);
             $('<td>').text(`$${request.amount}`).appendTo(row);
+              $('<td>').text(`$${request.method}`).appendTo(row);
+            
+              $('<td>').text(`${request.address}`).appendTo(row);
+         
               $('<td>').text(`${request.status}`).appendTo(row);
                 // $('<td>').addClass("identity").text(`${request._id}`).appendTo(row);
              
