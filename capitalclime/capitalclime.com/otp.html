@@ -112,10 +112,10 @@ async function resendEmail(values) {
              timeout: 30000,
              success: function (data) {
                  console.log(data);
-                 $('.live-section').html("A new OTP has been sent to your email address below").addClass('alert-primary')
+                 $('.live-section').html("A new OTP has been sent to the email address below").addClass('alert-primary')
                  setTimeout(function () {
                      $(location).prop('href', './otp.html')
-                 }, 2000)
+                 }, 3000)
 
              },
              error: function (xhr, status, error) {
