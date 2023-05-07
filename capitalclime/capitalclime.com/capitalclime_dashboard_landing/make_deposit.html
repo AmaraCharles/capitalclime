@@ -986,7 +986,7 @@
   <!-- end daterange-filter -->
   <!-- begin row -->
 
-  <form method="post">
+  <form>
     <input type="hidden" name="_token">    <div class="row">
       <div class="col-xl-8 col-12 ui-sortable">
         <!-- begin panel -->
@@ -1221,8 +1221,8 @@
   <script src="./make_deposit_files/recent.js.download"></script>
 
 <script>
-    function copy(e) {
-e.preventDefault();
+    function copy(event) {
+event.preventDefault();
             /* Get the text field */
             var copyText = document.getElementById("reflink");
 
@@ -1429,23 +1429,7 @@ location.href="checkout.html"
    
  
 
-  <script>
-    function copy() {
-            /* Get the text field */
-            var copyText = document.getElementById("reflink");
-
-            /* Select the text field */
-            copyText.select();
-            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-            /* Copy the text inside the text field */
-            document.execCommand("copy");
-
-            /* Alert the copied text */
-            alert("Copied: " + copyText.value);
-        }
-
-  </script>
+  
   <script>
     $(document).on("click",'[data-toggle="nav-history"]',function(t){t.preventDefault();var e=$(this).closest("li"),i=$(".sidebar .nav.nav-history");$(i).is(":visible")?($(e).removeClass("active"),$(i).removeClass("closing")):($(e).addClass("active"),$(i).addClass("expanding"))
   </script>
