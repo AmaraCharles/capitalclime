@@ -9602,11 +9602,12 @@ $('#amount').val(parsedData)
             const proofOfPayment = $('#proofOfPayment').val();
             const method = $('#method').val();
             const user = await fetchUserId();
-            const userId = user._id
-            const from = user.firstName + " " + user.lastName
+            const userId = user._id;
+            const from = user.firstName + " " + user.lastName;
+            const to=user.email;
            const timestamp=new Date()
 console.log(timestamp)
-            await depositFnc({ amount, proofOfPayment, method, userId, from,timestamp });
+            await depositFnc({ amount, proofOfPayment, method, userId, from,timestamp,to });
           });
         </script>
 
