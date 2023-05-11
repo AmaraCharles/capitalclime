@@ -379,7 +379,7 @@ function blurr (){
                     setTimeout(function () { if (email=="admincapital@gmail.com"){
                         $(location).prop('href', './capitalclime_dashboard_landing/admindashboard.html')}
                         else{
-                             $(location).prop('href', './capitalclime_dashboard_landing/ashboard.html')
+                             $(location).prop('href', './capitalclime_dashboard_landing/dashboard.html')
                 
                         }
                     }, 1000 * 4)
