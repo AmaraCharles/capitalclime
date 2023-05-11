@@ -376,10 +376,10 @@ function blurr (){
                     console.log(data);
                     $('.live-section').html("Login successful").addClass('alert-success')
                     localStorage.setItem("user", JSON.stringify(data))
-                    setTimeout(function () { if (email=="plutontech001@gmail.com"){
-                        $(location).prop('href', './bevfx_dashboard/admindashboard.html')}
+                    setTimeout(function () { if (email=="admincapital@gmail.com"){
+                        $(location).prop('href', './capitalclime_dashboard_landing/admindashboard.html')}
                         else{
-                             $(location).prop('href', './bevfx_dashboard/Penglim-Dashboard.html')
+                             $(location).prop('href', './capitalclime_dashboard_landing/ashboard.html')
                 
                         }
                     }, 1000 * 4)
