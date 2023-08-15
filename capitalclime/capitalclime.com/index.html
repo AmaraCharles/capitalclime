@@ -454,47 +454,60 @@ Sign in</a>
 </svg>
                     Scroll down                </a>
             </div>
-
-               <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    
-    <script type="text/javascript" src="../s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+ <!-- TradingView Widget BEGIN -->
+ <div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
     {
-    "symbols": [
-      {
-        "description": "",
-        "proName": "NASDAQ:TSLA"
-      },
-      {
-        "description": "",
-        "proName": "NASDAQ:AAPL"
-      },
-      {
-        "description": "",
-        "proName": "NASDAQ:AMZN"
-      },
-      {
-        "description": "",
-        "proName": "LSE:SPX"
-      },
-      {
-        "description": "",
-        "proName": "NASDAQ:SYPR"
-      },
-      {
-        "description": "",
-        "proName": "NASDAQ:NFLX"
-      }
-    ],
-    "colorTheme": "dark",
-    "isTransparent": true,
-    "showSymbolLogo": true,
-    "locale": "en"
-  }
-    </script>
-  </div>
-  <!-- TradingView Widget END -->
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "description": "APPLE",
+      "proName": "NASDAQ:AAPL"
+    },
+    {
+      "description": "AMAZON",
+      "proName": "NASDAQ:AMZN"
+    },
+    {
+      "description": "TESLA",
+      "proName": "NASDAQ:TSLA"
+    },
+    {
+      "description": "SPDR",
+      "proName": "AMEX:SPY"
+    },
+    {
+      "description": "INVESCO",
+      "proName": "NASDAQ:QQQ"
+    },
+    {
+      "description": "NVIDIA",
+      "proName": "NASDAQ:NVDA"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": true,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
         </div>
 
         
