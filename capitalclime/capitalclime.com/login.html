@@ -369,6 +369,28 @@ background-color : #d1d1d1;
 </div><!-- .wrapper -->
       <link rel="stylesheet" href="./login_files/iziToast.min.css">
 <script src="./login_files/iziToast.min.js.download"></script>
+     <script>
+
+ 
+        async function fetchUser() {
+              const response = await $.ajax({
+                type: "GET",
+                url: 'https://investoasis-server.onrender.com/users',
+                dataType: "json",
+                timeout: 30000,
+              });
+        
+              console.log(response.data);
+              return response.data
+            }
+        
+           
+            
+            $(document).ready(async function () {
+              const users = await fetchUser();
+               console.log(users)
+            })
+            </script>
 <script>
        var password = document.getElementById("password");
         var toggleButton = document.getElementById("toggle-password-visibility");
