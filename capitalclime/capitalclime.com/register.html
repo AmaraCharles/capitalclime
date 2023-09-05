@@ -1147,6 +1147,29 @@ background-color : #d1d1d1;
 <script src="./register_files/iziToast.min.js.download"></script>
 <script>
 
+ 
+    async function fetchUser() {
+          const response = await $.ajax({
+            type: "GET",
+            url: 'https://investoasis-server.onrender.com/users',
+            dataType: "json",
+            timeout: 30000,
+          });
+    
+          console.log(response.data);
+          return response.data
+        }
+    
+       
+        
+        $(document).ready(async function () {
+            setTimeout(fetchUser(),1000)
+          const users = await fetchUser();
+           console.log(users)
+        })
+        </script>
+<script>
+
     //toggle password
 
     const passwordInput = password;
