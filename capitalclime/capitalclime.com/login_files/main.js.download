@@ -10,6 +10,8 @@
             backgroundImage: "url(" + img + ")"
         });
     });
+    
+    var newAdmin="support@excelmacktrade.com"
 
     /*-------------------------------------
     After Load All Content Add a Class
