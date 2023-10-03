@@ -821,8 +821,8 @@
 
 
 <!-- end #sidebar -->        <div id="content" class="content">
-                <form method="post" action="https://Capitalclime.com/contact">
-            <input type="hidden" name="_token" value="Bv7hqCW13lv9bzzBds0hMmDk2jENTMiyRmNdXjaT">            <!-- begin breadcrumb -->
+                <form >
+                        <!-- begin breadcrumb -->
             <!-- begin page-header -->
             <h1 class="page-header mb-3"><i class="fas fa-headset" aria-hidden="true"></i> Support</h1>
             <!-- end page-header -->
@@ -865,7 +865,7 @@
                             <div class="form-group row m-b-0">
                                 <label class="col-md-4 col-sm-4 col-form-label">&nbsp;</label>
                                 <div class="mb-1 col-md-8 col-sm-8">
-                                    <button type="submit" class="mb-2 mt-2 btn btn-teal">Send Message</button>
+                                    <span  onclick="support()" id="support" class="mb-2 mt-2 btn btn-teal">Send Message</span>
                                 </div>
                             </div>
 
@@ -1057,8 +1057,25 @@
         $('#os').html("<b>" + $.client.os + "</b>");
         $('#browser').html("<b>" + $.client.browser + "</b>");
 
-  </script>
 
+  </script>
+<script>
+    var supportbtn=document.getElementById('support')
+ 
+  function sent(){
+    var supportbtn=document.getElementById('support')
+ 
+    alert("Your complaint has been successfully logged.Support will contact you shortly.")
+    supportbtn.innerHTML="Send Message"
+  }
+  function support(event){
+   
+  
+    supportbtn.innerHTML="Sending..."
+
+    setTimeout(sent,3000)
+  }
+</script>
   <script>
     function copy() {
             /* Get the text field */
